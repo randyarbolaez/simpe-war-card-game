@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+  background: #9db4c0;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+
+h1 {
+  color: #5c6b73;
+  font-size: 6rem;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10%;
+  padding-right: 5%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: 'Poiret One', cursive;
+  color: #c2dfe3;
+  background: #253237;
+  border-radius: 10%;
+  width: 8vw;
+  height: 6vh;
+}
+
+button:hover {
+  box-shadow: 0.5vw 0.9vh #e0fbfc;
+}

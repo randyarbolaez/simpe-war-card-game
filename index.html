@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>War Card Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>War Card Game</h1>
+    <button onclick="getNewCards()">Get 2 new Cards</button>
+    <h2 id="error"></h2>
+    <div class="wrapper">
+      <div>
+        <h2 id="card-one-value"></h2>
+        <span id="card-one"></span>
+      </div>
+      <div>
+        <h2 id="card-two-value"></h2>
+        <span id="card-two"></span>
+      </div>
+    </div>
+    <button onclick="reshuffleDeck()">Reshuffle Deck</button>
+    <script src="app.js"></script>
+  </body>
+</html>
